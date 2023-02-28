@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(../Fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  cursor: auto;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(13, 27, 48);
+  color: white;
+  font-family: "Fira Code";
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}

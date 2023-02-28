@@ -1,0 +1,75 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.inactive {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.active {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  gap: 2em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2.5em;
+}
+
+button.shop {
+  margin-left: 2.5em;
+}
+
+.links > * > *:hover {
+  cursor: pointer;
+}
+
+img.arrow {
+  margin-right: 5em;
+}
+
+@media (max-width: 1235px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  p,
+  button {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 880px) {
+  .inactive {
+    display: none;
+  }
+  .active {
+    display: initial;
+  }
+}
+
+@media (max-width: 475px) {
+  div.active h1 {
+    font-size: 16px;
+  }
+  div.active img {
+    width: 30px;
+  }
+}
+
+@media (min-width: 880px) {
+  div.active {
+    display: none;
+  }
+}
