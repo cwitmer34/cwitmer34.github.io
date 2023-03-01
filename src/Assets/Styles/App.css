@@ -36,7 +36,24 @@ button {
   font-weight: 600;
 }
 
-div.background-img {
-  width: 100vw;
-  height: 100vh;
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  filter: blur(10px);
+  transform: scale(1.06);
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%;
+  }
 }

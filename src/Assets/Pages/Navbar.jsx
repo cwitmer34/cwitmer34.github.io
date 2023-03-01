@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import arrow from "../Images/arrow.svg";
-import hamburger from "../Images/hamburger.svg";
+import arrow from "../Media/arrow.svg";
+import hamburger from "../Media/hamburger.svg";
 import "../Styles/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="nav-container">
       <div className="inactive">
         <div className="logo">
-          <Link to={"/"}>
+          <Link to={"/portfolio"}>
             <h1>CONNOR WITMER</h1>
           </Link>
           {/* <img
