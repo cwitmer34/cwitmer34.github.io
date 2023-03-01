@@ -19,6 +19,7 @@ body {
   color: white;
   font-family: "Fira Code";
   text-align: center;
+  overflow: hidden;
 }
 
 a {
@@ -33,4 +34,9 @@ button {
   border-radius: 100px;
   font-family: "Montserrat";
   font-weight: 600;
+}
+
+div.background-img {
+  width: 100vw;
+  height: 100vh;
 }
