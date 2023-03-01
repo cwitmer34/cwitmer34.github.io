@@ -19,7 +19,7 @@ body {
   color: white;
   font-family: "Fira Code";
   text-align: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
