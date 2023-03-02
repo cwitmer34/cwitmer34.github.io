@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="nav-container soft">
       <div className="inactive">
-        <div className="logo">
-          <Link to={"/portfolio"}>
+        <div className="name">
+          <Link to={"/"}>
             <h2>CONNOR WITMER</h2>
             <p>full-stack dev</p>
           </Link>

@@ -6,11 +6,10 @@ div.sidebar-container {
   align-items: center;
 }
 
-div.item {
-  transition: all 250ms ease-in-out;
+img.item {
+  transition: all 150ms ease-in-out;
   width: 75px;
   height: 75px;
-  background-color: black;
   border-radius: 100%;
   margin-top: 5px;
 }
@@ -18,4 +17,35 @@ div.item {
 .item:hover {
   border-radius: 20px;
   cursor: pointer;
+}
+
+div.side-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+div.side-nav .home {
+  width: 110px;
+  height: 110px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+  cursor: pointer;
+}
+
+.home p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.home p:hover {
+  text-decoration: underline;
 }

@@ -2,7 +2,7 @@ import background from "../Media/background.mp4";
 
 const Background = () => {
   return (
-    <div className="background">
+    <div className="background center">
       <video autoPlay loop muted playsInline className="video">
         <source src={background} type="video/mp4" />
       </video>
