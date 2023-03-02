@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.11231faa.css",
-    "main.js": "/static/js/main.8bbdc737.js",
+    "main.css": "/static/css/main.4066f7ab.css",
+    "main.js": "/static/js/main.ae00611b.js",
     "static/js/787.22edae46.chunk.js": "/static/js/787.22edae46.chunk.js",
     "static/media/background.mp4": "/static/media/background.28b68ef7e874506a534f.mp4",
+    "static/media/pexels-nina-hill-13870795.jpg": "/static/media/pexels-nina-hill-13870795.a5ce41a9510b412ff030.jpg",
+    "static/media/pexels-becca-correia-8723508.jpg": "/static/media/pexels-becca-correia-8723508.65fabc80346159cb31eb.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/FiraCode-VariableFont_wght.ttf": "/static/media/FiraCode-VariableFont_wght.4938e54ab2f06530a084.ttf",
+    "static/media/logo.svg": "/static/media/logo.bbbc1660309b89a9f3a2e63be0afa9a4.svg",
     "index.html": "/index.html",
     "static/media/hamburger.svg": "/static/media/hamburger.441c6d3c5922b2cec63dafcf9822215d.svg",
     "static/media/arrow.svg": "/static/media/arrow.71f8a8c04a30d5cae9cccb2d930bfc86.svg",
-    "main.11231faa.css.map": "/static/css/main.11231faa.css.map",
-    "main.8bbdc737.js.map": "/static/js/main.8bbdc737.js.map",
+    "main.4066f7ab.css.map": "/static/css/main.4066f7ab.css.map",
+    "main.ae00611b.js.map": "/static/js/main.ae00611b.js.map",
     "787.22edae46.chunk.js.map": "/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11231faa.css",
-    "static/js/main.8bbdc737.js"
+    "static/css/main.4066f7ab.css",
+    "static/js/main.ae00611b.js"
   ]
 }
