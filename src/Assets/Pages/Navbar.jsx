@@ -4,11 +4,12 @@ import hamburger from "../Media/hamburger.svg";
 import "../Styles/Navbar.css";
 const Navbar = () => {
   return (
-    <nav className="nav-container">
+    <nav className="nav-container soft">
       <div className="inactive">
         <div className="logo">
           <Link to={"/portfolio"}>
-            <h1>CONNOR WITMER</h1>
+            <h2>CONNOR WITMER</h2>
+            <p>full-stack dev</p>
           </Link>
           {/* <img
             className="arrow"

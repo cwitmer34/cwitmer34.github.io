@@ -1,11 +1,12 @@
-h1 {
+h2 {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 4px;
   font-size: 2em;
   cursor: pointer;
 }
 
 .inactive {
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -13,13 +14,11 @@ h1 {
 div.active {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  margin: auto;
 }
 
 .logo {
-  display: flex;
-  gap: 2em;
+  line-height: 0;
+  text-align: right;
 }
 
 .links {
@@ -72,4 +71,8 @@ img.arrow {
   div.active {
     display: none;
   }
+}
+
+nav {
+  background-color: black;
 }
